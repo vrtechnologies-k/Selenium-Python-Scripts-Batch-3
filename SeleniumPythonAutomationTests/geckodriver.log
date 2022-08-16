@@ -1,0 +1,23 @@
+1660021916634	geckodriver	INFO	Listening on 127.0.0.1:65391
+1660021919634	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofileI4dG3c"
+1660021921009	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofileI4dG3c\\search.json.mozlz4", (void 0)))
+1660021928640	Marionette	INFO	Listening on port 65400
+1660021929147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1660021934306	Marionette	INFO	Stopped listening on port 65400
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 18292, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1660022664310	geckodriver	INFO	Listening on 127.0.0.1:49431
+1660022667382	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofileSbumbz"
+1660022667974	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofileSbumbz\\search.json.mozlz4", (void 0)))
+1660022671848	Marionette	INFO	Listening on port 49439
+1660022672193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1660022682071	Marionette	INFO	Stopped listening on port 49439
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
